@@ -11,7 +11,7 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $("img:last")
+  return $("div img:last")
 }
 
 function ninjaBabySelector(){
@@ -23,5 +23,5 @@ function divSelector(){
 }
 
 function firstListItem(){
-  return $("#pic-list").
+  return $("div #pic-list ul li").
 }
