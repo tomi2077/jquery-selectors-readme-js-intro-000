@@ -7,19 +7,19 @@ $("img[alt='the beatles making faces']")
 $('div:last')
 
 function paragraphSelector(){
-  return $("p")
+  return $("p");
 }
 
 function lastImageSelector(){
-  return $("div img:last")
+  return $("img:last");
 }
 
 function ninjaBabySelector(){
-  return $("#baby-ninja")
+  return $("#baby-ninja");
 }
 
 function divSelector(){
-  return $(".pics")
+  return $(".pics");
 }
 
 function firstListItem(){
